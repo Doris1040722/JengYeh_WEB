@@ -16,19 +16,34 @@
           animation-name: anforh2;
           animation-duration: 5s;
           animation-iteration-count: infinite;
+          font-size:3vw;
+          text-shadow: 2px 2px 4px #000000;
         }
         body {
           border: 10px ridge;
           padding: 20px;
         }
+        @keyframes anforph {
+          from{border-radius: 0%;}
+          to{border-radius: 100%}
+        }
+        .anph1{
+            width:60%;
+            height:auto;
+        }
+        .anph1:hover{
+            animation-name: anforph;
+            animation-duration: 1s;
+             animation-iteration-count: infinite;
+        }
         </style>
   </head>
   <body style="font-family: sans-serif;background-color: #ffff00;">
     <div style="color: #ff0000;property: value;">
-      <h1>葉紜羽的網站</h1>
+      <h1 class='title'>葉紜羽的網站</h1>
       <hr>
-      <img src="https://cdn2.ettoday.net/images/2251/d2251757.jpg" alt="alternative text">
-      <img src="https://cdn2.ettoday.net/images/2251/d2251757.jpg" alt="alternative text">
+      <img class="anph1" src="https://cdn2.ettoday.net/images/2251/d2251757.jpg" alt="alternative text">
+      <img class="anph1" src="https://cdn2.ettoday.net/images/2251/d2251757.jpg" alt="alternative text">
     </div>
     <div style="color: #3333ff;">
       <hr>
